@@ -1,0 +1,5 @@
+name: ${project.name}
+main: com.nuclearw.colortab.ColorTab
+version: ${project.version}
+author: NuclearW
+description: ColorTab colors the tab user list based off the color of the prefix from PermissionsEx

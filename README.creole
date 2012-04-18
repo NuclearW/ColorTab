@@ -1,0 +1,7 @@
+== ColorTab
+
+ColorTab colors the tab user list based off the color of the prefix from PermissionsEx
+
+=== Compiling
+
+Maven 3 is required to compile ColorTab
