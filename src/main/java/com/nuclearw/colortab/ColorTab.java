@@ -25,6 +25,10 @@ public class ColorTab extends JavaPlugin implements Listener {
 	@EventHandler(ignoreCancelled = true, priority = EventPriority.MONITOR)
 	public void onPlayerJoin(PlayerJoinEvent event) {
 		Player player = event.getPlayer();
+		colorName(player);
+	}
+
+	private void colorName(Player player) {
 		String playerName = player.getName();
 
 		if(playerName.length() <= 14) {
