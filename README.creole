@@ -2,6 +2,19 @@
 
 ColorTab colors the tab user list based off the color of the prefix from PermissionsEx
 
+=== Commands
+
+* /ctmagic (user)
+
+=== Permissions
+
+* colortab.magic
+** //Allows you to toggle magic name on yourself//
+* colortab.magic.other
+** //Allows you to toggle magic name on othersr//
+
+All permissions default to **op**
+
 === Compiling
 
 Maven 3 is required to compile ColorTab
